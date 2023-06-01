@@ -1,5 +1,6 @@
  .u-section-1 {
   background-image: url("images/QUANTUMTECH.png");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -7,10 +8,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    background-position: 50% 50%;
-  }
-
   .u-section-1 .u-sheet-1 {
     min-height: 660px;
   }
@@ -37,99 +34,97 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 749px;
+  min-height: 581px;
+}
+
+.u-section-2 .u-list-1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  grid-template-rows: auto;
+}
+
+.u-section-2 .u-repeater-1 {
+  grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+  grid-gap: 10px 10px;
+  min-height: 375px;
+}
+
+.u-section-2 .u-image-1 {
+  background-image: url("images/b3664a51af325b026c552f3ef13c0fa8731c4db2c58c2be59021d3d2a807da33305ed30ba02c153cb4c82c71da04c5494500d9297062ccd66b47c3_1280.jpg");
+  background-position: 50% 0%;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 30px;
 }
 
 .u-section-2 .u-text-1 {
-  margin: 60px auto 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .u-section-2 .u-text-2 {
-  margin: 20px 197px 0;
+  margin: 20px 0 0;
 }
 
-.u-section-2 .u-gallery-1 {
-  height: 423px;
-  margin-top: 47px;
-  margin-bottom: 60px;
-  grid-gap: 17px;
+.u-section-2 .u-image-2 {
+  background-image: url("images/cddab1f917d15e3e6cbf9e652d9fea78212f72570f58d062e599ee276676aa679bca036efe1efecad638bc14a1562a6e511daf5874b6ca89d0a4b1_1280.jpg");
+  background-position: 50% 0%;
 }
 
-.u-section-2 .u-gallery-inner-1 {
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 17px;
+.u-section-2 .u-container-layout-2 {
+  padding: 30px;
 }
 
-.u-section-2 .u-over-slide-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+.u-section-2 .u-text-3 {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
-.u-section-2 .u-over-slide-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+.u-section-2 .u-text-4 {
+  margin: 20px 0 0;
 }
 
-.u-section-2 .u-over-slide-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
-  padding: 20px;
+.u-section-2 .u-image-3 {
+  background-image: url("images/534180e12415bd15be62e66c08f9cbf3df18fc027810cdaf06a0dd3905b70fd5ea3d30a42f230f6874a2345916b7b9662fac571df96b1b42423266_1280.jpg");
+  background-position: 50% 0%;
+}
+
+.u-section-2 .u-container-layout-3 {
+  padding: 30px;
+}
+
+.u-section-2 .u-text-5 {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.u-section-2 .u-text-6 {
+  margin: 20px 0 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 675px;
-  }
-
-  .u-section-2 .u-text-2 {
-    margin-left: 97px;
-    margin-right: 97px;
-  }
-
-  .u-section-2 .u-gallery-1 {
-    height: 349px;
+    min-height: 515px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1128px;
+    min-height: 916px;
   }
 
-  .u-section-2 .u-text-2 {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-2 .u-gallery-1 {
-    height: 802px;
-  }
-
-  .u-section-2 .u-gallery-inner-1 {
-    grid-template-columns: repeat(2, auto);
+  .u-section-2 .u-repeater-1 {
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 2093px;
-  }
-
-  .u-section-2 .u-gallery-1 {
-    height: 1805px;
-  }
-
-  .u-section-2 .u-gallery-inner-1 {
-    grid-template-columns: repeat(1, auto);
-  }
-}
-
-@media (max-width: 575px) {
-  .u-section-2 .u-sheet-1 {
-    min-height: 1418px;
-  }
-
-  .u-section-2 .u-gallery-1 {
-    height: 1136px;
+  .u-section-2 .u-repeater-1 {
+    grid-template-columns: 100%;
   }
 } .u-section-3 {
   background-image: none;
